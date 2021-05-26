@@ -3,14 +3,80 @@
 <head>
 <meta charset='utf-8'>
 <style>
+* {padding: 0px;
+   margin: 0px;}
+header, nav, section, aside, footer {border:  solid 0px black;}
+
+table {float: right;}
+
 table, th, tr, td {
 	border: solid 1px black;
 	border-collapse: collapse;
 	padding: 8px;
+    background-color: paleturquoise;}
+    table {
+                float: right;
+                margin-right: 100px;
+                width: 800px; height: 800px;
+                border: solid 3px black;
+            }
+header {width: 1000px;
+        height: 130px;
+        margin-top: 100px;
+        text-align: center;
+        display: inline-block;}
+
+h2 {font-size: 30px;}
+
+
+nav {width: 850px;
+	 height: 70px;
+
+     margin: 0px 0px 0px 80px;
+     background-color: white;
+     border: solid 1px white;}
+
+section {width: 1000px;
+		 margin-top: 15px;
+		 text-align: center;}
+
+footer {float: left;
+width: 1000px;
+height: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+text-align: center;
+}
+
+.clear {clear: both;}
+
+ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 30px;}
+
+li {display: inline;}
+
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: purple; font-weight: bold;}
 }
 </style>
 </head>
 <body>
+    <header>
+        <h2>2021 1학기 시간표</h2>
+    </header>
+    <nav>
+        <a href="form_test2.html">ㅣ회원가입</a>ㅣ
+        <a href="rubato.html">루바토 펜션 안내</a>ㅣ
+        <a href="guitar.html">호서 행사 안내</a>ㅣ
+        <a href="야간개장안내.html">야간 개장 안내</a>ㅣ
+        <a href="홍보용프로필.html">세일 안내장</a>ㅣ
+        <a href="월간일정표.html">월간일정표</a>ㅣ
+        <a href="상품판매목록.html">상품판매목록</a>ㅣ
+    </nav>
+    <section>
     <table>
         <tr>
             <td></td>
@@ -91,12 +157,10 @@ table, th, tr, td {
         </tr>
 
     </table>
-    <br>
-    <a href="form_test2.html">회원가입</a>
-    <a href="rubato.html">[루바토 펜션 안내]</a>
-    <a href="guitar.html">[제1회 호서 국제 기타 페스티벌]</a>
-    <a href="야간개장안내.html">[호서 야간 개장 안내]</a>
-    <br>
-    <a href="홍보용프로필.html">[세일 안내장]</a>
-    <a href="월간일정표.html">[월간일정표]</a>
-    <a href="상품판매목록.html">[상품판매목록]</a>
+   
+</section>
+<footer>
+   <span><a href="ex1-2.html"> 20200365 박진우 자기소개서는 여기!</a></span>
+</footer>
+</body>
+</html>
